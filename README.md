@@ -9,6 +9,7 @@ A 4 KB Python chess engine entered in make.fun's `tiny-chess-01` bounty. It unpa
 ## Engine
 
 The committed `main.py` is produced by the make.fun kit's `compress` command from the readable `engine_source.py`.
+The search is deterministic: two plies with material and piece-square evaluation, no clock and no randomness.
 
 ## Run it
 
